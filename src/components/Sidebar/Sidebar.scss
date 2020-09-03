@@ -106,7 +106,6 @@ $footerHeight: 36px;
 }
 
 .header {
-  background: #05283c;
   height: $headerHeight;
   padding: 10px 14px;
 
@@ -115,6 +114,12 @@ $footerHeight: 36px;
     height: 28px;
     float: left;
   }
+}
+
+.noodlheader {
+  background: #05283c;
+  height: $headerHeight;
+  padding: 10px 14px;
 }
 
 .currentApp, .menuRow {

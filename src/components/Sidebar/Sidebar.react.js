@@ -13,6 +13,7 @@ import FooterMenu     from 'components/Sidebar/FooterMenu.react';
 import React, { useState } from 'react';
 import ParseApp       from 'lib/ParseApp';
 import SidebarHeader  from 'components/Sidebar/SidebarHeader.react';
+import NoodlSidebarHeader  from 'components/Sidebar/NoodlSidebarHeader.react';
 import SidebarSection from 'components/Sidebar/SidebarSection.react';
 import SidebarSubItem from 'components/Sidebar/SidebarSubItem.react';
 import styles         from 'components/Sidebar/Sidebar.scss';
@@ -102,8 +103,11 @@ const Sidebar = ({
   }
 
   return <div className={styles.sidebar}>
-    <SidebarHeader />
+      <NoodlSidebarHeader />
     {sidebarContent}
+    <div style={{position: 'absolute', bottom: 0, left: 0, right: 0}}>
+      <SidebarHeader />
+    </div>
     {/* <div className={styles.footer}> */}
       {/* <a target='_blank' href='http://parseplatform.org/'>Open Source Hub</a>
       <a target='_blank' href='https://github.com/parse-community'>GitHub</a>
