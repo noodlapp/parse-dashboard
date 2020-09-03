@@ -128,7 +128,7 @@ $footerHeight: 36px;
   font-size: 18px;
   font-weight: 700;
   line-height: 30px;
-  cursor: pointer;
+  // cursor: pointer;
 }
 
 .menuRow {
@@ -153,19 +153,19 @@ $footerHeight: 36px;
   text-overflow: ellipsis;
   padding-right: 40px;
 
-  &:hover{
-      &:after {
-        border-top-color: white;
-      }
-  }
+  // &:hover{
+  //     &:after {
+  //       border-top-color: white;
+  //     }
+  // }
 
-  &:after {
-    @include arrow('down', 10px, 7px, #132B39);
-    position: absolute;
-    content: '';
-    top: 20px;
-    right: 15px;
-  }
+  // &:after {
+  //   @include arrow('down', 10px, 7px, #132B39);
+  //   position: absolute;
+  //   content: '';
+  //   top: 20px;
+  //   right: 15px;
+  // }
 }
 
 .appsMenu .currentApp:after {

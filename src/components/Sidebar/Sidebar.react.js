@@ -69,7 +69,7 @@ const Sidebar = ({
       <>
         {appSelector && (
           <div className={styles.apps}>
-            <AppName name={currentApp.name} onClick={() => setAppsMenuOpen(true)} />
+            <AppName name={currentApp.name} />
           </div>
         )}
         <div className={styles.content}>
@@ -104,12 +104,12 @@ const Sidebar = ({
   return <div className={styles.sidebar}>
     <SidebarHeader />
     {sidebarContent}
-    <div className={styles.footer}>
-      <a target='_blank' href='http://parseplatform.org/'>Open Source Hub</a>
+    {/* <div className={styles.footer}> */}
+      {/* <a target='_blank' href='http://parseplatform.org/'>Open Source Hub</a>
       <a target='_blank' href='https://github.com/parse-community'>GitHub</a>
-      <a target='_blank' href='http://docs.parseplatform.org/'>Docs</a>
-      <FooterMenu />
-    </div>
+      <a target='_blank' href='http://docs.parseplatform.org/'>Docs</a> */}
+      {/* <FooterMenu /> */}
+    {/* </div> */}
   </div>
 }
 
