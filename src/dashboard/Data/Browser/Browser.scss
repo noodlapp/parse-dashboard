@@ -42,7 +42,7 @@
   display: inline-block;
   height: 18px;
   width: 1px;
-  background: #66637A;
+  background: #D4D4D4;
   vertical-align: bottom;
   margin: 0 4px;
 }
@@ -59,7 +59,7 @@
   svg {
     vertical-align: middle;
     margin-right: 4px;
-    fill: #66637A;
+    fill: #D4D4D4;
   }
 
   &:hover {
@@ -77,10 +77,10 @@
 
 .toolbarButtonDisabled {
   cursor: not-allowed;
-  color: #66637A;
+  color: #D4D4D4;
 
   &:hover svg {
-    fill: #66637A;
+    fill: #D4D4D4;
   }
 }
 
@@ -130,7 +130,7 @@
   }
 
   svg {
-    fill: $blue;
+    fill: #197182;
 
     &:hover {
       fill: $darkBlue;

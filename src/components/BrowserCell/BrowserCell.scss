@@ -10,7 +10,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
   cursor: default;
-  color: #0E69A1;
+  color: #14606E;
   height: 30px;
   line-height: 22px;
   padding: 5px 4px 0;
@@ -18,7 +18,7 @@
 }
 
 .empty {
-  color: #7D929F;
+  color: #444444;
 }
 
 .current {
@@ -28,7 +28,7 @@
     position: absolute;
     pointer-events: none;
     content: '';
-    border: 2px solid #555572;
+    border: 2px solid #197182;
     top: 0;
     left: 0;
     right: 0;

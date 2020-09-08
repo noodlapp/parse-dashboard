@@ -11,7 +11,7 @@
   @include DosisFont;
   display: inline-block;
   height: 30px;
-  border: 1px solid $blue;
+  border: 1px solid $noodlOrange;
   line-height: 28px;
   outline: 0;
   text-decoration: none;
@@ -25,17 +25,17 @@
   color: $blue;
 
   &:hover, &:focus {
-    background-color: $blue;
+    background-color: $noodlOrange;
     color: white;
   }
 }
 
 .primary {
-  background-color: $blue;
+  background-color: $noodlOrange;
   color: $white;
 
   &:hover, &:focus {
-    background-color: $darkBlue;
+    background-color: orange;
   }
 }
 

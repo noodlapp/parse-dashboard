@@ -129,7 +129,7 @@ export default class BrowserFilter extends React.Component {
                   onClick={this.addRow.bind(this)}
                 />
                 <Button
-                  color="white"
+                  color="primary"
                   primary={true}
                   value="Apply these filters"
                   width="245px"

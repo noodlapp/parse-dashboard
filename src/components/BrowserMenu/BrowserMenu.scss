@@ -16,7 +16,7 @@
   padding: 8px 8px 0 8px;
 
   svg {
-    fill: #66637A;
+    fill: #D4D4D4;
   }
 
   &:hover {
@@ -36,7 +36,7 @@
 }
 
 .title {
-  background: #797592;
+  background: #444444;
   padding: 8px;
   border-radius: 5px 5px 0 0;
 
@@ -68,7 +68,7 @@
   top: 30px;
   right: 0;
   border-radius: 5px 0 5px 5px;
-  background: #797592;
+  background: #444444;
   padding: 8px 0;
   font-size: 14px;
 }
@@ -81,7 +81,7 @@
   height: 26px;
 
   &:hover {
-    background: $blue;
+    background: $noodlOrange;
   }
 
   &.disabled {

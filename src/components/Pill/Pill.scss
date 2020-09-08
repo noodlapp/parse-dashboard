@@ -10,7 +10,7 @@
 .pill {
   @include MonospaceFont;
   display: inline-block;
-  background: #D5E5F2;
+  background-color: rgba($color: #5CB4C4, $alpha: 0.5);
   color: #0E69A1;
   height: 20px;
   line-height: 20px;
@@ -23,6 +23,6 @@
   text-overflow: ellipsis;
 
   &:hover {
-    background: #BFD4E5;
+    background:rgba($color: #5CB4C4, $alpha: 0.7);
   }
 }

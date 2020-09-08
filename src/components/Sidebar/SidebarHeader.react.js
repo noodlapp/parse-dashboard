@@ -27,12 +27,12 @@ export default class SidebarHeader extends React.Component {
     return (
       <div className={styles.header}>
         <Link className={styles.logo} to={{ pathname: '/apps' }}>
-          <Icon width={28} height={28} name='infinity' fill={'#ffffff'} />
+          <Icon width={20} height={20} name='infinity' fill={'#ffffff'} />
         </Link>
         <Link to='/apps'>
           <div className={styles.version}>
             <div>
-              Parse Dashboard {version}
+              Parse Platform
               <div>
                 {this.state.dashboardUser}
               </div>

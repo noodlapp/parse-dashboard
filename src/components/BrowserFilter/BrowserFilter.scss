@@ -16,7 +16,7 @@
   padding: 8px;
 
   svg {
-    fill: #66637A;
+    fill: #D4D4D4;
   }
 
   &:hover svg {
@@ -38,7 +38,7 @@
 }
 
 .title {
-  background: #797691;
+  background: #444444;
   padding: 8px;
   border-radius: 5px 5px 0 0;
 
@@ -79,7 +79,7 @@
   top: 30px;
   right: 0;
   border-radius: 5px 0 5px 5px;
-  background: #797691;
+  background: #444444;
   width: 535px;
   font-size: 14px;
 }
@@ -113,7 +113,7 @@
     @include MonospaceFont;
     height: 30px;
     width: 140px;
-    background: #343445;
+    background: #114F5A;
     border: none;
     outline: none;
     border-radius: 5px;
@@ -125,7 +125,7 @@
 }
 
 .active .row input {
-  background: #0E69A1;
+  background: red;
 }
 
 .remove {

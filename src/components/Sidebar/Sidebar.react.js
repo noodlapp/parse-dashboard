@@ -103,7 +103,7 @@ const Sidebar = ({
   }
 
   return <div className={styles.sidebar}>
-      <NoodlSidebarHeader />
+     {/* <NoodlSidebarHeader /> */}
     {sidebarContent}
     <div style={{position: 'absolute', bottom: 0, left: 0, right: 0}}>
       <SidebarHeader />

@@ -18,7 +18,7 @@ $footerHeight: 36px;
   top: 0;
   left: 0;
   bottom: 0;
-  background: #0c5582;
+  background: $noodlGrey1;
   color: #fff;
   transition: left 0.5s ease-in;
 }
@@ -125,7 +125,7 @@ $footerHeight: 36px;
 .currentApp, .menuRow {
   @include ellipsis();
   display: block;
-  background: #094162;
+  background: $noodlGrey0;
   height: $sidebarMenuItemHeight;
   padding: 10px 14px;
 
@@ -201,7 +201,7 @@ $footerHeight: 36px;
   height: $menuSectionHeight;
   line-height: 24px;
   background: #0c5582;
-  color: #84A5BC;
+  color: #14606E;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 8px;
@@ -236,12 +236,12 @@ $footerHeight: 36px;
 }
 
 .active {
-  background: #159cee;
+  background: #171717;
 
   .section_header{
     font-weight: 700;
     &:hover{
-      background: #159cee;
+      background: #14606E;
     }
   }
 }
@@ -269,7 +269,7 @@ $footerHeight: 36px;
 }
 
 .section_contents {
-  background: #0e69a0;
+  background: #222222;
   padding: 16px 14px 16px 50px;
 }
 
@@ -283,7 +283,7 @@ $footerHeight: 36px;
 }
 
 a.subitem {
-  color: #8fb9cf;
+  color: #14606E;
   font-weight: 400;
   display: inline-block;
   width: 100%;
@@ -302,17 +302,19 @@ a.subitem {
   line-height: 20px;
   top: 4px;
   right: 0px;
-  background: #0c5987;
-  color: white;
+  background: #DDA302;
+  color: black;
   border-radius: 3px;
 
   &:hover {
-    background: #094162;
+    background: #D49517;
   }
 }
 
 .logo {
   float: left;
+  height: 20px;
+  margin-top: 4px;
 }
 
 .version {

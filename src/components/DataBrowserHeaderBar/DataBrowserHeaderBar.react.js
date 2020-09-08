@@ -31,9 +31,9 @@ export default class DataBrowserHeaderBar extends React.Component {
       if (!visible) return;
       let wrapStyle = { width };
       if (i % 2) {
-        wrapStyle.background = '#726F85';
+        wrapStyle.background = '#114F5A';
       } else {
-        wrapStyle.background = '#66637A';
+        wrapStyle.background = '#14606E';
       }
       let onClick = null;
       if (type === 'String' || type === 'Number' || type === 'Date' || type === 'Boolean') {
