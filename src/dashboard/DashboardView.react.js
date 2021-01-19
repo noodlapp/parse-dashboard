@@ -28,13 +28,10 @@ export default class DashboardView extends React.Component {
     }
 
     let features = this.context.currentApp.serverInfo.features;
-    console.log(features);
 
     //remove features Noodl doesn't support yet
-    delete features.cloudCode;
     delete features.globalConfig;
     delete features.hooks;
-    delete features.logs;
     delete features.push;
 
     let coreSubsections = [];
@@ -89,10 +86,10 @@ export default class DashboardView extends React.Component {
       });
     }
 
-    // coreSubsections.push({
-    //   name: 'API Console',
-    //   link: '/api_console'
-    // });
+    coreSubsections.push({
+      name: 'API Console',
+      link: '/api_console'
+    });
 
     if (this.context.currentApp.migration) {
       coreSubsections.push({
